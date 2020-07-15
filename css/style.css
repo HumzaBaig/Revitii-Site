@@ -746,7 +746,7 @@ p {
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
   background-color: transparent !important;
-  padding: 6px 10px;
+  padding: 6px 20px;
   margin: 0 7px;
 }
 
@@ -759,7 +759,8 @@ p {
 }
 
 .navbar-custom .navbar-btn {
-  margin-left: 10px;
+  margin-left: 20px;
+  padding: 3px 10px;
   color: rgba(255, 255, 255, 0.8);
   background: rgb(86, 132, 194, 0.6);
   border-color: transparent;
