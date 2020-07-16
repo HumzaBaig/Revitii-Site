@@ -1100,11 +1100,11 @@ p {
 
 @media (max-width: 767.98px) {
   .hero-title {
-    font-size: 32px;
+    font-size: 36px;
   }
 
   .hero-section-2 {
-    background-position: 1% 65%;
+    background-position: 1% 25%;
     padding: 56px 0px 60px 0px;
   }
 
