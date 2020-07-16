@@ -1111,6 +1111,10 @@ p {
   .mobile-white-text {
     color: #ffffff;
   }
+
+  .variable-img {
+    height: 18rem;
+  }
 }
 
 @media (max-width: 575.98px) {
