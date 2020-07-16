@@ -868,6 +868,7 @@ p {
 /*--- Hero 2 ---*/
 .hero-section-2 {
   padding: 200px 0px 170px 0px;
+  background: url(../images/bg-1.png) 1% 30%;
 }
 
 .hero-title {
@@ -1100,6 +1101,15 @@ p {
 @media (max-width: 767.98px) {
   .hero-title {
     font-size: 32px;
+  }
+
+  .hero-section-2 {
+    background-position: 1% 65%;
+    padding: 56px 0px 60px 0px;
+  }
+
+  .mobile-white-text {
+    color: #ffffff;
   }
 }
 
