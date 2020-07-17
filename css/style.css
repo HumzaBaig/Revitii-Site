@@ -804,11 +804,11 @@ p {
   display: none;
 }
 
-.navbar-light .nav-sticky .logo .logo-dark {
+.nav-sticky .logo .logo-dark {
   display: inline-block;
 }
 
-.navbar-light .nav-sticky .logo .logo-light {
+.nav-sticky .logo .logo-light {
   display: none;
 }
 
@@ -819,10 +819,6 @@ p {
   background-color: #ffffff;
   -webkit-box-shadow: 0 10px 33px -14px rgba(0, 0, 0, 0.1);
           box-shadow: 0 10px 33px -14px rgba(0, 0, 0, 0.1);
-}
-
-.nav-sticky.navbar-custom .logo .logo-light {
-  display: none;
 }
 
 .nav-sticky.navbar-custom .logo .logo-dark {
