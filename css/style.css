@@ -1095,8 +1095,12 @@ p {
 }
 
 @media (max-width: 767.98px) {
-  .navbar img {
-    content: url("../images/logo-dark.png");
+  .navbar .logo .logo-light {
+    display: none;
+  }
+
+  .navbar .logo .logo-dark {
+    display: inline-block;
   }
 
   .hero-title {
