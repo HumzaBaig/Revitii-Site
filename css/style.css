@@ -73,6 +73,14 @@ p {
   color: #195B9B;
 }
 
+.break-section, .process-section {
+  padding-top: 0 !important;
+}
+
+.break-image, .process-image {
+  width: 100%;
+}
+
 /*******************
     2.Helper
 *******************/
