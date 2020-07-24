@@ -86,6 +86,10 @@ p {
   align-items: center;
 }
 
+.image-icon {
+  width: 100%;
+}
+
 /*******************
     2.Helper
 *******************/
