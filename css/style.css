@@ -81,6 +81,11 @@ p {
   width: 100%;
 }
 
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+
 /*******************
     2.Helper
 *******************/
