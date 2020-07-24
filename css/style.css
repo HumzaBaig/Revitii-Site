@@ -1136,6 +1136,10 @@ p {
   .variable-img {
     height: 18rem;
   }
+
+  .reverse-col-mobile {
+    flex-flow: column-reverse;
+  }
 }
 
 @media (max-width: 575.98px) {
