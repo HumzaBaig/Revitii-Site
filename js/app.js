@@ -1,7 +1,4 @@
-/* Template Name: Invoza - Bootstrap 4 Landing Page Tamplate
-   Author: Themesdesign
-   File Description: Main JS file of the template
-*/
+// File Description: Main JS file of the template
 
 
 ! function($) {
@@ -12,7 +9,7 @@
     Invoza.prototype.initStickyMenu = function() {
         $(window).scroll(function() {
             var scroll = $(window).scrollTop();
-        
+
             if (scroll >= 50) {
                 $(".sticky").addClass("nav-sticky");
             } else {
@@ -22,7 +19,7 @@
     },
 
     Invoza.prototype.initSmoothLink = function() {
-        $('.navbar-nav a').on('click', function(event) {
+        $('.scrolling-effect a').on('click', function(event) {
             var $anchor = $(this);
             $('html, body').stop().animate({
                 scrollTop: $($anchor.attr('href')).offset().top - 0
@@ -47,7 +44,7 @@
                 576:{
                     items:2
                 },
-     
+
             }
         });
     },
