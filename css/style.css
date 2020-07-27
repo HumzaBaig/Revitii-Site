@@ -90,6 +90,12 @@ p {
   width: 100%;
 }
 
+.red-heart {
+  width: 0.9rem;
+  vertical-align: top;
+  margin-top: 2px;
+}
+
 /*******************
     2.Helper
 *******************/
