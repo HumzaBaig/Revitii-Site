@@ -73,6 +73,19 @@ p {
   color: #195B9B;
 }
 
+.break-image {
+  background-image: url("https://res.cloudinary.com/dzixj0ktk/image/upload/v1595887094/revity-04_nwul6p.png");
+  background-size: cover;
+  height: 235px;
+  padding: 5% 17%;
+}
+
+.value-statement {
+  text-align: center;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
 .break-section, .process-section {
   padding-top: 0 !important;
 }
@@ -1141,6 +1154,14 @@ p {
 
   .variable-img {
     height: 18rem;
+  }
+
+  .break-image {
+    padding: 5% 10%;
+  }
+
+  .value-statement {
+    font-size: 20px;
   }
 
   .reverse-col-mobile {
